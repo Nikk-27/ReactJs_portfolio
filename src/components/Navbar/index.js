@@ -159,17 +159,20 @@ const Navbar = () => {
     <Nav>
       <NavContainer>
         <NavLogo to="/">
-          <a
+          <button
             style={{
               display: "flex",
               alignItems: "center",
-              color: "white",
+              color: "white", 
               marginBottom: "20;",
               cursor: "pointer",
+              display: "flex",
+              border: "none",
+              background: "none",
             }}
           >
             <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a>
+          </button>
         </NavLogo>
         <MobileIcon>
           <FaBars
