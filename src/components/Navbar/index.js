@@ -166,7 +166,6 @@ const Navbar = () => {
               color: "white", 
               marginBottom: "20;",
               cursor: "pointer",
-              display: "flex",
               border: "none",
               background: "none",
             }}
